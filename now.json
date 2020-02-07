@@ -1,0 +1,8 @@
+{
+	"version": 2,
+	"public": true,
+	"name": "php-deployment",
+	"builds": [
+    { "src": "*.php", "use": "@now/php" }
+	]
+}
